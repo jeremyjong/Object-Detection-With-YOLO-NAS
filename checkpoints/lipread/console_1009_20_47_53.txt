@@ -1,0 +1,134 @@
+============================================================
+New run started at 2023-10-09.20:47:27.414225
+sys.argv: "c:\Users\jerem\.conda\envs\yolo-nas\lib\site-packages\ipykernel_launcher.py --ip=127.0.0.1 --stdin=9032 --control=9030 --hb=9029 --Session.signature_scheme="hmac-sha256" --Session.key=b"8e0d9306-b6a9-4de2-9a27-d8c5e3b458c5" --shell=9031 --transport="tcp" --iopub=9033 --f=c:\Users\jerem\AppData\Roaming\jupyter\runtime\kernel-v2-1200Y3ypYxOzoTs8.json"
+============================================================
+The console stream is logged into C:\Users\jerem\sg_logs\console.log
+c:\Users\jerem\.conda\envs\yolo-nas\lib\site-packages\_distutils_hack\__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+d:\(Code)\Python\YOLO-NAS
+�R�}���h�̍\��������Ă��܂��B
+d:\(Code)\Python\YOLO-NAS\data
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+'wget' �́A�����R�}���h�܂��͊O���R�}���h�A
+����\�ȃv���O�����܂��̓o�b�` �t�@�C���Ƃ��ĔF������Ă��܂���B
+c:\Users\jerem\.conda\envs\yolo-nas\lib\site-packages\torch\amp\autocast_mode.py:204: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+Requirement already satisfied: roboflow in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (1.1.7)
+Requirement already satisfied: certifi==2022.12.7 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (2022.12.7)
+Requirement already satisfied: chardet==4.0.0 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (4.0.0)
+Requirement already satisfied: cycler==0.10.0 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (0.10.0)
+Requirement already satisfied: idna==2.10 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (2.10)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (1.4.5)
+Requirement already satisfied: matplotlib in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (3.8.0)
+Requirement already satisfied: numpy>=1.18.5 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (1.23.0)
+Requirement already satisfied: opencv-python-headless==4.8.0.74 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (4.8.0.74)
+Requirement already satisfied: Pillow>=7.1.2 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (10.0.1)
+Requirement already satisfied: pyparsing==2.4.7 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (2.4.7)
+Requirement already satisfied: python-dateutil in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (2.8.2)
+Requirement already satisfied: python-dotenv in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (1.0.0)
+Requirement already satisfied: requests in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (2.31.0)
+Requirement already satisfied: six in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (1.16.0)
+Requirement already satisfied: supervision in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (0.15.0)
+Requirement already satisfied: urllib3>=1.26.6 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (1.26.16)
+Requirement already satisfied: tqdm>=4.41.0 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (4.66.1)
+Requirement already satisfied: PyYAML>=5.3.1 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (6.0.1)
+Requirement already satisfied: requests-toolbelt in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from roboflow) (1.0.0)
+Requirement already satisfied: colorama in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from tqdm>=4.41.0->roboflow) (0.4.6)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from matplotlib->roboflow) (1.1.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from matplotlib->roboflow) (4.43.0)
+Requirement already satisfied: packaging>=20.0 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from matplotlib->roboflow) (23.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from requests->roboflow) (3.3.0)
+Requirement already satisfied: scipy<2.0.0,>=1.9.0 in c:\users\jerem\.conda\envs\yolo-nas\lib\site-packages (from supervision->roboflow) (1.11.3)
+
+loading Roboflow workspace...
+
+loading Roboflow project...
+
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   0%|          | 0/52714 [00:00<?, ?it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   0%|          | 47/52714 [00:00<02:59, 294.10it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   0%|          | 91/52714 [00:00<02:25, 361.52it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   0%|          | 207/52714 [00:00<01:19, 658.93it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   1%|          | 407/52714 [00:00<00:46, 1135.00it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   2%|▏         | 876/52714 [00:00<00:22, 2330.70it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   4%|▎         | 1871/52714 [00:00<00:10, 4796.49it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::   8%|▊         | 4101/52714 [00:00<00:04, 10310.53it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  15%|█▌        | 8033/52714 [00:00<00:02, 19317.25it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  21%|██        | 11152/52714 [00:01<00:02, 20382.27it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  29%|██▉       | 15198/52714 [00:01<00:01, 25994.67it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  34%|███▍      | 17858/52714 [00:01<00:01, 24427.43it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  41%|████      | 21503/52714 [00:01<00:01, 27712.77it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  49%|████▉     | 25701/52714 [00:01<00:01, 26099.93it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  55%|█████▍    | 28975/52714 [00:01<00:00, 24383.98it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  63%|██████▎   | 33209/52714 [00:01<00:00, 28611.69it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  69%|██████▊   | 36238/52714 [00:01<00:00, 26166.95it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  74%|███████▍  | 38992/52714 [00:02<00:00, 25367.21it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  81%|████████▏ | 42888/52714 [00:02<00:00, 28736.62it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  90%|████████▉ | 47230/52714 [00:02<00:00, 32552.76it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch::  96%|█████████▋| 50817/52714 [00:02<00:00, 33393.62it/s]
+Downloading Dataset Version Zip in LipRead-4 to yolov5pytorch:: 100%|██████████| 52714/52714 [00:02<00:00, 22222.75it/s]
+
+
+Extracting Dataset Version Zip to LipRead-4 in yolov5pytorch::   0%|          | 0/870 [00:00<?, ?it/s]
+Extracting Dataset Version Zip to LipRead-4 in yolov5pytorch::  22%|██▏       | 189/870 [00:00<00:00, 1880.05it/s]
+Extracting Dataset Version Zip to LipRead-4 in yolov5pytorch::  43%|████▎     | 378/870 [00:00<00:00, 1877.82it/s]
+Extracting Dataset Version Zip to LipRead-4 in yolov5pytorch::  74%|███████▍  | 642/870 [00:00<00:00, 2217.28it/s]
+Extracting Dataset Version Zip to LipRead-4 in yolov5pytorch:: 100%|█████████▉| 869/870 [00:00<00:00, 2222.76it/s]
+Extracting Dataset Version Zip to LipRead-4 in yolov5pytorch:: 100%|██████████| 870/870 [00:00<00:00, 2149.57it/s]
+location: d:\(Code)\Python\YOLO-NAS\data\LipRead-4
+classes: ['A', 'E', 'I', 'O', 'U']
+
+Indexing dataset annotations:   0%|          | 0/375 [00:00<?, ?it/s]
+Indexing dataset annotations:   3%|▎         | 13/375 [00:00<00:03, 119.59it/s]
+Indexing dataset annotations:   7%|▋         | 26/375 [00:00<00:02, 123.19it/s]
+Indexing dataset annotations:  10%|█         | 39/375 [00:00<00:02, 126.15it/s]
+Indexing dataset annotations:  14%|█▍        | 52/375 [00:00<00:02, 122.98it/s]
+Indexing dataset annotations:  17%|█▋        | 65/375 [00:00<00:02, 122.97it/s]
+Indexing dataset annotations:  21%|██        | 78/375 [00:00<00:02, 118.66it/s]
+Indexing dataset annotations:  24%|██▍       | 90/375 [00:00<00:02, 114.77it/s]
+Indexing dataset annotations:  27%|██▋       | 103/375 [00:00<00:02, 116.96it/s]
+Indexing dataset annotations:  31%|███       | 116/375 [00:00<00:02, 117.77it/s]
+Indexing dataset annotations:  34%|███▍      | 129/375 [00:01<00:02, 120.53it/s]
+Indexing dataset annotations:  38%|███▊      | 142/375 [00:01<00:01, 121.97it/s]
+Indexing dataset annotations:  41%|████▏     | 155/375 [00:01<00:01, 122.98it/s]
+Indexing dataset annotations:  45%|████▌     | 169/375 [00:01<00:01, 125.49it/s]
+Indexing dataset annotations:  49%|████▊     | 182/375 [00:01<00:01, 119.95it/s]
+Indexing dataset annotations:  52%|█████▏    | 195/375 [00:01<00:01, 115.86it/s]
+Indexing dataset annotations:  55%|█████▌    | 207/375 [00:01<00:01, 116.92it/s]
+Indexing dataset annotations:  58%|█████▊    | 219/375 [00:01<00:01, 115.38it/s]
+Indexing dataset annotations:  62%|██████▏   | 231/375 [00:01<00:01, 115.37it/s]
+Indexing dataset annotations:  65%|██████▌   | 244/375 [00:02<00:01, 117.63it/s]
+Indexing dataset annotations:  69%|██████▉   | 258/375 [00:02<00:00, 122.04it/s]
+Indexing dataset annotations:  73%|███████▎  | 272/375 [00:02<00:00, 124.99it/s]
+Indexing dataset annotations:  76%|███████▌  | 285/375 [00:02<00:00, 125.80it/s]
+Indexing dataset annotations:  79%|███████▉  | 298/375 [00:02<00:00, 121.99it/s]
+Indexing dataset annotations:  83%|████████▎ | 313/375 [00:02<00:00, 128.41it/s]
+Indexing dataset annotations:  87%|████████▋ | 326/375 [00:02<00:00, 128.58it/s]
+Indexing dataset annotations:  91%|█████████ | 340/375 [00:02<00:00, 129.74it/s]
+Indexing dataset annotations:  94%|█████████▍| 353/375 [00:02<00:00, 129.53it/s]
+Indexing dataset annotations:  98%|█████████▊| 366/375 [00:02<00:00, 128.26it/s]
+Indexing dataset annotations: 100%|██████████| 375/375 [00:03<00:00, 122.44it/s]
+
+Indexing dataset annotations:   0%|          | 0/35 [00:00<?, ?it/s]
+Indexing dataset annotations:  40%|████      | 14/35 [00:00<00:00, 131.19it/s]
+Indexing dataset annotations:  80%|████████  | 28/35 [00:00<00:00, 128.37it/s]
+Indexing dataset annotations: 100%|██████████| 35/35 [00:00<00:00, 130.68it/s]
+
+Indexing dataset annotations:   0%|          | 0/19 [00:00<?, ?it/s]
+Indexing dataset annotations:  68%|██████▊   | 13/19 [00:00<00:00, 127.82it/s]
+Indexing dataset annotations: 100%|██████████| 19/19 [00:00<00:00, 127.01it/s]
+The console stream is now moved to d:\(Code)\Python\YOLO-NAS/checkpoints\lipread/console_1009_20_47_53.txt
+[2023-10-09 20:47:54] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
